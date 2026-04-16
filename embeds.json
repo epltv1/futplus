@@ -1,4 +1,10 @@
 {
-  "jsb18h": "https://pooembed.eu/embed/mlb/2026-04-16/wsh-pit",
-  "xyz99": "https://another-source.com/stream-id"
+  "jsb18h": {
+    "title": "MLB: Nationals vs Pirates",
+    "url": "https://pooembed.eu/embed/mlb/2026-04-16/wsh-pit"
+  },
+  "a7x22": {
+    "title": "Arsenal vs Man City",
+    "url": "https://source.com/embed/soccer"
+  }
 }
