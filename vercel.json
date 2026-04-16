@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/live/:id",
+      "destination": "/api/live?id=:id"
+    }
+  ]
+}
