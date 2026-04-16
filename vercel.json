@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/live/:id",
+      "source": "/:id",
       "destination": "/api/live?id=:id"
     }
   ]
