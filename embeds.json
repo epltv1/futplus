@@ -1,10 +1,82 @@
 {
   "jsb18h": {
-    "title": "smack",
-    "url": "https://pooembed.eu/embed/wwe/smackdown/2026-04-17"
+    "title": "brentford vs fulham",
+    "url": "https://pooembed.eu/embed/pl/2026-04-18/bre-ful"
   },
-  "a7x22": {
-    "title": "Arsenal vs Man City",
-    "url": "https://source.com/embed/soccer"
+  "pl01ars": {
+    "title": "EPL: Arsenal vs Manchester City",
+    "url": "https://pooembed.eu/embed/pl/ars-mci"
+  },
+  "nb22lkr": {
+    "title": "NBA: LA Lakers vs Golden State Warriors",
+    "url": "https://pooembed.eu/embed/nba/lkr-gsw"
+  },
+  "nhl33nyr": {
+    "title": "NHL: NY Rangers vs Boston Bruins",
+    "url": "https://pooembed.eu/embed/nhl/nyr-bos"
+  },
+  "f1bah26": {
+    "title": "Formula 1: Bahrain Grand Prix - Main Race",
+    "url": "https://pooembed.eu/embed/f1/bahrain"
+  },
+  "ucl44rma": {
+    "title": "UCL: Real Madrid vs Bayern Munich",
+    "url": "https://pooembed.eu/embed/ucl/rma-bay"
+  },
+  "pl02liv": {
+    "title": "EPL: Liverpool vs Chelsea",
+    "url": "https://pooembed.eu/embed/pl/liv-che"
+  },
+  "mlb02nyy": {
+    "title": "MLB: NY Yankees vs Boston Red Sox",
+    "url": "https://pooembed.eu/embed/mlb/nyy-bos"
+  },
+  "facup55": {
+    "title": "FA Cup: Man Utd vs Coventry City",
+    "url": "https://pooembed.eu/embed/facup/mun-cov"
+  },
+  "esp66ll": {
+    "title": "La Liga: Barcelona vs Atletico Madrid",
+    "url": "https://pooembed.eu/embed/laliga/bar-atl"
+  },
+  "nb23mil": {
+    "title": "NBA: Milwaukee Bucks vs Miami Heat",
+    "url": "https://pooembed.eu/embed/nba/mil-mia"
+  },
+  "ita77sr": {
+    "title": "Serie A: Inter Milan vs AC Milan",
+    "url": "https://pooembed.eu/embed/seriea/int-acm"
+  },
+  "pl03tot": {
+    "title": "EPL: Tottenham vs Newcastle",
+    "url": "https://pooembed.eu/embed/pl/tot-new"
+  },
+  "ger88bd": {
+    "title": "Bundesliga: Dortmund vs Leverkusen",
+    "url": "https://pooembed.eu/embed/bnd/dor-lev"
+  },
+  "nba24dal": {
+    "title": "NBA: Dallas Mavericks vs Phoenix Suns",
+    "url": "https://pooembed.eu/embed/nba/dal-phx"
+  },
+  "nhl34vgk": {
+    "title": "NHL: Vegas Golden Knights vs Edmonton Oilers",
+    "url": "https://pooembed.eu/embed/nhl/vgk-edm"
+  },
+  "mlb03lad": {
+    "title": "MLB: LA Dodgers vs SF Giants",
+    "url": "https://pooembed.eu/embed/mlb/lad-sfg"
+  },
+  "fra99l1": {
+    "title": "Ligue 1: PSG vs Lyon",
+    "url": "https://pooembed.eu/embed/l1/psg-ol"
+  },
+  "ef26s5": {
+    "title": "eFootball: Season 5 Pro Showcase",
+    "url": "https://pooembed.eu/embed/gaming/efootball"
+  },
+  "live99x": {
+    "title": "Futbol-X: 24/7 Sports News",
+    "url": "https://pooembed.eu/embed/news/live"
   }
 }
