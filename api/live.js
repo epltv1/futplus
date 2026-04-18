@@ -1,12 +1,28 @@
 const embeds = require('../embeds.json');
 
 export default function handler(req, res) {
-    // This allows both /jsb18h AND /?id=jsb18h
+    // 1. Improved ID detection (handles both /jsb18h and /?id=jsb18h)
     const id = req.query.id;
     const entry = embeds[id];
 
     if (!entry) {
         return res.status(404).send("<h1>Stream Not Found</h1>");
+    }
+
+    // 2. SECURITY FEATURE: Domain Locking
+    const referer = req.headers.referer || "";
+    const allowedDomains = [
+        'futbol-x.xyz',
+        'www.futbol-x.xyz',
+        'futbol-x.top',
+        'futplus.vercel.app' // Allow your own vercel domain for testing
+    ];
+
+    const isAllowed = allowedDomains.some(domain => referer.includes(domain));
+
+    // If you want to strictly block anyone viewing it outside your site:
+    if (!isAllowed && referer !== "") { 
+        return res.status(403).send("<h1>Access Denied</h1><p>This stream is only available on futbol-x.xyz</p>");
     }
 
     res.setHeader('Content-Type', 'text/html');
